@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/bootstrap-flex.css">
+
+    <title>Bootstrap Intermediário - Barra de Navegação</title>
+</head>
+
+<body>
+
+    <!-- Barra de navegação -->
+
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-toggleable-md bg-inverse navbar-dark">
+      <a href="#" class="navbar-brand">
+        <img src="assets/img/smile.png" style="width: 50px; height: auto;" class="d-inline-block align-top"> Here 4 u
+        <!-- d-inline-block = elementos subsequentes não quebram linha, nada por cima dele -->
+      </a>
+
+      <!--botão sanduíche -->
+      <button class="navbar-toggler hidden-md-up float-sm-right" type="button" data-toggle="collapse" data-target="#menu-sanduiche"></button>
+      <!-- todo o menu que sera escondido/colapsado deverá ficar dentro dessa div -->
+      <div class="collapse navbar-toggleable-sm" id="menu-sanduiche">
+        <ul class="mr-auto nav navbar-nav">
+          <li class="nav-item">
+            <a href="aa.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="quem%20somos.html" class="nav-link">Quem nós somos?</a>
+          </li>
+             <li class="nav-item">
+            <a href="#" class="nav-link"> Ajuda rapída </a>
+           </li>
+           <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> Categorias </a>
+            <div class="dropdown-menu">
+              <a href="suicidio.html" class="dropdown-item"> Pensamentos suícidas </a>
+              <a href="ta.html" class="dropdown-item"> Transtornos alimentares </a>
+              <a href="depressao.html" class="dropdown-item"> Depressão </a>
+              <a href="lgbtq.html" class="dropdown-item"> LGBTQ+ </a>
+              <a href="#" class="dropdown-item"> Auto-Multilação </a>
+               <li class="nav-item">
+            <a href="#" class="nav-link"> Distrações </a>
+                 <li class="nav-item">
+          <button class="btn btn-outline-danger">Vídeo de gato de emergência</button>
+                </li>    
+           </li>
+            </div>
+          </li> 
+        </ul>
+
+
+        <!-- pesquisa -->
+        <form class="form-inline" style="text-align: right;">
+          <!-- <input type="text" class="form-control" placeholder="digite a pesquisa..."> -->
+          <!-- <button class="btn btn-outline-success" type="submit">Pesquisar</button> -->
+        </form>
+
+      </div>
+
+    </nav>
+
+    <!-- Fim Barra de navegação -->   
+
+    <div class="container">
+      
+      <!-- jumbotron -->
+      <div class="jumbotron" style="background-color: #FFE4D5;">
+
+        <h1 class="display-3">Tudo bem não estar bem o tempo todo</h1> 
+
+        <p class="lead">Respira que tem gente pra te ajudar. </p>
+
+        <hr class="my-2">
+
+      </div>
+
+      <!-- fim jumbotron  -->
+      
+
+
+      <!-- cards -->
+      <div class="jumbotron text-centered" style="background-color: white;">
+
+        <h3 class="display-4">Contatos:</h3>
+        
+      
+        <!-- 1a row do card-->
+        <div class="row">
+
+          <!-- 1o card -->
+          <div class="col-md-4 col-sm-12">
+
+            <div class="card" style="background-color: #D2A77B">
+              
+              <div class="card-block">
+                <h4 class="card-title">Centro de Valorização da vida:</h4>
+                <h6 class="card-subtitle text-muted"></h6>
+              </div>
+              
+              <div class="card-block">
+                <p class="card-text">Tem uma galera muito legal pra te ajudar com qualquer coisa! Desde jogar uma conversa fora até problemas sérios, Liga lá :)</p>
+                <a href="http://cvv.org.br/chat.php" class="card-link">Chat</a>
+                <a href="http://cvv.org.br/skype.php" class="card-link">Skype</a>
+                <a href="http://cvv.org.br/postos-de-atendimento.php" class="card-link">Endereços</a>
+                <a href="http://cvv.org.br/email.php" class="card-link">Email</a>
+                
+                <h6 class="card-text" style="text-align: center "> <b> Telefone: 144</b> </h6>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- 2o card -->
+          <div class="col-md-4 col-sm-12">
+
+            <div class="card" style="background-color: #CCC6EE">
+              
+              <div class="card-block">
+                <h4 class="card-title">Here4u:</h4>
+                <h6 class="card-subtitle text-muted"></h6>
+              </div>
+              
+              <div class="card-block">
+                <p class="card-text">A galera do site tá aqui pra ajudar também, Chama a gente :)</p>
+                <a href="http://twitter.com/mwriaz" class="card-link" target="">twitter</a>
+                <a href="http://cvv.org.br/skype.php" class="card-link">Skype</a>
+                <a href="http://cvv.org.br/postos-de-atendimento.php" class="card-link">Endereços</a>
+                <a href="http://cvv.org.br/email.php" class="card-link">Email</a>
+                
+                <h6 class="card-text" style="text-align: center "> <b> Telefone: 144 </b> </h6>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- 3o card -->
+          <div class="col-md-3 col-sm-12">
+            <div class="card card-info card-inverse" ">
+              
+              <div class="card-block">
+                <h4 class="card-title">Depoimento 3</h4>
+                <h6 class="card-subtitle text-muted">Melhor impossível!</h6>
+              </div>
+              
+              <img src="assets/img/pessoa-1.jpg" style="width:70%; height:auto">
+
+              <div class="card-block">
+                <p class="card-text">Foi muito legal! Gostei muito! Parabéns!</p>
+                <a href="#" class="card-link">Link 1</a>
+                <a href="#" class="card-link">Link 2</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4o card -->
+          <div class="col-md-3 col-sm-12">
+            <div class="card card-outline-danger">
+              
+              <div class="card-block">
+                <h4 class="card-title">Depoimento 4</h4>
+                <h6 class="card-subtitle text-muted">Melhor impossível!</h6>
+              </div>
+              
+              <img src="assets/img/pessoa-1.jpg" style="width:70%; height:auto">
+              <div class="card-block">
+                <p class="card-text">Foi muito legal! Gostei muito! Parabéns!</p>
+                <a href="#" class="card-link">Link 1</a>
+                <a href="#" class="card-link">Link 2</a>
+              </div>
+            </div>
+          </div>       
+
+        </div> <!-- end da div da 1a row -->
+        
+        <!-- 2a row do card-->   
+        <div class="row">
+
+          <!-- 1o card -->
+          <div class="col-md-3 col-sm-12">
+
+            <div class="card">
+
+              <img class="card-img-top" src="assets/img/pessoa-1.jpg" style="width:100%; height:auto">
+              
+              <div class="card-img-overlay">
+                <h4 class="card-title">Depoimento 5</h4>
+                <h6 class="card-subtitle text-muted">Foi incrível!</h6>
+              </div>
+              
+              <div class="card-block card-warning">
+                <p class="card-text">Mais uma vez, foi muito legal! Gostei bastante!</p>
+                <a href="#" class="card-link">Link 1</a>
+                <a href="#" class="card-link">Link 2</a>
+              </div>
+            </div>
+
+          </div>             
+        
+        </div> <!-- end da div da 2a row -->  
+
+        <!-- fim cards -->
+
+          
+        
+        
+
+ 
+
+
+    </div>
+
+    <script src="assets/js/jquery-3.1.0.js"></script>
+    <script src="assets/js/tether.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+
+
+</body>
+
+</html>

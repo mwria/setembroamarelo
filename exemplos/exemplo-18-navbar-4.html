@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/bootstrap-flex.css">
+
+    <title>Bootstrap Intermediário - Barra de Navegação</title>
+</head>
+
+<body>
+
+    <!-- Barra de navegação -->
+
+    <nav class="navbar bg-inverse navbar-dark">
+      <a href="#" class="navbar-brand">
+      	<img src="assets/img/facebook-logo.png" style="width: 30px; height: auto;" class="d-inline-block align-top"> COTIL
+      	<!-- d-inline-block = elementos subsequentes não quebram linha, nada por cima dele -->
+      </a>
+
+      <!--botão sanduíche -->
+      <button class="navbar-toggler hidden-md-up float-sm-right" type="button" data-toggle="collapse" data-target="#menu-sanduiche"></button>
+
+      <!-- todo o menu que sera escondido/colapsado deverá ficar dentro dessa div -->
+      <div class="collapse navbar-toggleable-sm" id="menu-sanduiche">
+
+        <ul class="nav navbar-nav"> 
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Manual do Aluno</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Cursos</a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Informática</a> 
+              <a href="#" class="dropdown-item">Mecânica</a> 
+              <a href="#" class="dropdown-item">Enfermagem</a> 
+              <a href="#" class="dropdown-item">Edificações</a> 
+              <a href="#" class="dropdown-item">Geodésia</a> 
+              <a href="#" class="dropdown-item">Qualidade</a> 
+            </div>
+          </li>
+
+        </ul>
+
+        <!-- pesquisa -->
+        <form class="form-inline float-md-right">
+          <input type="text" class="form-control" placeholder="digite a pesquisa...">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        </form>
+
+      </div>
+
+    </nav>
+
+    <!-- Fim Barra de navegação -->   
+
+    <script src="assets/js/jquery-3.1.0.js"></script>
+    <script src="assets/js/tether.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+
+
+</body>
+
+</html>
